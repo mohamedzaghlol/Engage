@@ -1,0 +1,460 @@
+.clr{
+    clear: both;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.home{
+    background-image: url(images/business-2.jpg);
+    background-size: 100% 100%;
+    height: 1000px;
+    text-align: center;
+
+}
+.home .overlay{
+    background-color: rgba(0,0,0,0.7);
+    height: 1000px;
+}
+
+.home .nav{
+    background-color:rgba(29, 28, 28, 0.295);
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.home .nav img{
+    float: left;
+    padding-top: 25px;
+    padding-left: 220px;
+    width: auto ;
+    height: 38px;
+
+}
+
+.home .nav ul{
+    float: right;
+    list-style: none;
+    padding-right: 50px;
+
+}
+
+.home .nav ul li{
+    display: inline-block;
+    padding: 30px 30px;
+}
+
+.home .nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ;
+    padding-bottom: 4px;
+}
+
+.home .nav ul .spen{
+    border: none;
+    background-color: green;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.home .nav ul .first{
+    border-top: rgb(4, 192, 4) 3px solid ;
+    
+}
+
+.home .nav ul li a:hover{
+    font-size: 18px;
+    color: rgb(95, 141, 26);
+    border-bottom: rgb(95, 141, 26) 3px solid;
+
+}
+
+.home .nav ul .spen a:hover{
+    color: white; 
+    border: none;
+}
+
+
+.home .caption1 {
+    padding-top: 25%;
+    color: white;
+}
+
+.home .caption1 h1{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.home .caption1 h2{
+    font-size: 50px;
+    margin: 30px 0;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.home .caption1 .btn1{
+    padding: 15px 28px;
+    background-color: #4caf50;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+
+}
+
+.home .caption1 .btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.about{
+    width: 95%;
+    margin: 70px auto;
+}
+.about .text{
+    width: 33%;
+    display: inline-block;
+    margin-top: 100px ;
+}
+
+.about .text h1{
+    padding-bottom: 15px;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.about .text p{
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-size: 22px;
+    color: #888;
+}
+
+.servies{
+    background-color: #f8f8f8;
+    padding-bottom: 30px;
+}
+.servies .des{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+
+}
+.servies .des h1{
+    
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.servies .des h2{
+    color: #888;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.servies .cap2{
+    width: 31%;
+    display: inline-block;
+    margin: 8px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+.servies .container{
+    
+    width: 80%;
+    margin: 30px auto;
+    
+
+}
+
+.servies .cap2 img{
+    width: 100%;
+    transition: all 1s;
+    
+}
+
+
+
+.servies .cap2:hover img{
+    transform: scale(1.06);
+}
+
+
+.servies .cap2 .text2{
+    background-color: white;
+    padding: 10px;
+    
+}
+.servies .cap2 .text2 h2{
+    padding:10px 0;
+    font-weight: 100;
+}
+
+.servies .cap2 .text2 p{
+    width: 90%;
+    margin: auto;
+    color: #888;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+.servies .cap2 .text2 a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.servies .cap2 .text2 a:hover{
+    color: #3ad83f;
+
+}
+
+
+.pricing{
+    padding: 60px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.pricing .descri{
+    width: 40%;
+    
+    padding-top: 90px;
+    float: left;
+}
+.pricing .descri h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+.pricing .descri p{
+    font-size: 20px;
+    color: #888;
+    padding: 20px 0;
+    
+}
+.pricing img{
+
+    width: 50%;
+    float: right;
+}
+
+.pricing .descri .btn3{
+    padding: 15px 28px;
+    background-color: #4caf50;
+    margin-top: 10px;
+    color: white;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.pricing .descri .btn3:hover{
+
+    background-color: black;
+
+}
+
+
+.contact{
+    background-color: #f8f8f8;
+    padding: 70px 0;
+}
+
+.contact .container2{
+    width: 70%;
+    margin: auto;
+}
+.contact .container2 .idea{
+    width: 31%;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.contact .container2 .idea p{
+    background-color: white;
+    margin: 10px 0 20px 0;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 100;
+}
+
+.contact .container2 .idea p::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 100%;
+    border-top: 10px  solid white;
+    border-right: 10px  solid transparent;
+    border-left: 10px  solid transparent;
+    border-bottom:10px  solid transparent;
+}
+.contact .container2 .idea h4{
+    color: #9e9d9d;
+    font-size: 20px;
+    padding: 5px 0;
+
+}
+.contact .container2 .idea h3{
+    font-size: 22px;
+
+}
+
+.news {
+     padding: 80px 0;
+    text-align: center;
+}
+.news .text3{
+    width: 24%;
+    display: inline-block;
+    color: #aaacaf;
+}
+
+.add{
+    text-align: center;    
+    background-image: url(images/download.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+.add .overlay2{
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 130px 0;
+}
+
+.add .overlay2 .text5{
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+
+.add .overlay2 .text5 h1{
+    font-size: 36px;
+    font-weight: 100;
+    color: rgb(236, 231, 231);
+}
+.add .overlay2 .text5 p{
+    font-size: 20px;
+    color: rgb(236, 231, 231);
+    font-weight: 600;
+    padding: 15px 0 30px 0;
+    
+}
+
+.add  .btn3{
+    padding: 15px 28px;
+    background-color: #4caf50;
+    margin-top: 10px;
+    color: white;
+    border-radius:5px;
+    border: none;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+.add .btn3:hover{
+
+    background-color: white;
+    color: black;
+
+}
+
+.others {
+    padding-bottom: 70px 0;
+}
+.others .text6{
+    text-align: center;
+    
+}
+.others .text6 h1{
+    padding-top: 70px;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.others .text6 h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px 0 30px;
+    color: #65696d;
+}
+
+.others .container5{
+    width: 80%;
+    margin: auto;
+}
+
+.others .container5 .cap3{
+    width: 32%;
+    display: inline-block;
+    padding: 40px 0;
+}
+
+.others .container5 .cap3 h2{
+    padding: 15px;
+    color: #373a3c;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.others .container5 .cap3 p{
+    font-size: 18px;
+    padding: 15px;
+    color: #373a3c;
+    font-weight: 100;
+}
+
+
+.icons{
+    width: 42px;
+    position: fixed;
+    top: 200px;
+    cursor: pointer;
+    display: block;
+    right: 0%;
+    padding: 7px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-decoration-color: none;
+
+}
+.icons .ic1 {
+   margin-bottom: 10px;
+}
+.icons .ic1 a {
+    color: black;
+   margin-bottom: 10px;
+}
+.icons .ic2 a {
+    color: black;
+}
+.icons .ic1 a:hover{
+    color: #09c !important;
+}
+
+.icons .ic2 a:hover{
+    color: #09c;
+}
+
